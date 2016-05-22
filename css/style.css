@@ -1,0 +1,65 @@
+html, body {
+	height: 100%
+}
+#app , .dashboard{
+	height: 100%;
+}
+.input {
+	margin-bottom: 5px;
+  height: 52px;
+  border-bottom: 1px solid #CCD0D4;
+  background-color: white;
+}
+.input input{
+	border: none;
+  background-color: transparent;
+  height: 100%;
+  margin-left: 3px;
+}
+.input input:focus{
+	outline:none;
+}
+.center {
+	text-align: center;
+}
+.full-width{
+	width: 100%;
+}
+ul {
+	padding: 0;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid #CCD0D4;
+  height: 40px;
+  margin: 0 19px;
+  margin-top: 18px;
+}
+
+li .item .task{
+	display: inline-block;
+  color: #437BD2;
+}
+li .item .delete{
+  display: inline-block;
+  cursor: pointer;
+  color: #437BD2;
+}
+.fa {
+  font-size: 13px;
+}
+
+h1{
+	color: #187BD2;
+}
+.task-list-wrapper{
+	  height: 80%;
+    background-color: aliceblue;
+    border: 1px solid #CCD0D4;
+}
+.task-list{
+  overflow-y: auto;
+  height: 80%;
+  max-height: 80%;
+  overflow-x: hidden;
+}
