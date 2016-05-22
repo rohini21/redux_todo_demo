@@ -2,6 +2,8 @@ import {add_task} from "../sdk";
 import {get_tasks} from "../sdk";
 import {delete_task} from "../sdk";
 
+//actions dispatch an object only on receiving data from built.io backend
+
 export function addTaskAction(taskObject) {
   return function(dispatch){
     return add_task(taskObject)

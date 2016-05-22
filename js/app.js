@@ -8,9 +8,6 @@ class App extends React.Component {
 	componentDidMount(){
 		this.props.history.replace("/tasks");
 	}
-	componentWillReceiveProps(nextProps){
-	
-	}
 	render() {
 		return (
 			<div className="container dashboard">

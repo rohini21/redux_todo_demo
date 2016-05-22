@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 
+// reducers handle the effect an action has on the state of an application.
+ 
 function tasks(state = [], action) {
   switch (action.type) {
   case 'addTask':

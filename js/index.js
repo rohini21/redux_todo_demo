@@ -6,14 +6,14 @@ import "../css/style.css";
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
-import App from "./app";
-import Task from "./task/task";
-
 import { compose, createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import reducer from './reducers/reducer';
 import persistState, {mergePersistedState} from 'redux-localstorage';
+
+import App from "./app";
+import Task from "./task/task";
 
 const createPersistentStore = compose(
   persistState(),

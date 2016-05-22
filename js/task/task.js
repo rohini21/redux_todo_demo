@@ -8,12 +8,6 @@ class Task extends React.Component {
 		super(props)
 		
 	}
-	componentDidMount(){
-
-	}
-	componentWillReceiveProps(nextProps){
-	
-	}
 	onKeyUp(e){
 		var value = this.refs.input.value;
 		if(e.keyCode == 13 && value.trim() !== ""){
