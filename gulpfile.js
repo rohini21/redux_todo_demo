@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 var gulp        = require('gulp');
 var browserify  = require('browserify');
 var source      = require('vinyl-source-stream');
@@ -5,7 +7,6 @@ var buffer      = require('vinyl-buffer');
 var babelify    = require("babelify");
 var plugins     = require('gulp-load-plugins')();
 var runSequence = require('run-sequence');
-
 gulp.task('webserver', function(){
   gulp.src('./')
     .pipe(plugins.webserver({
