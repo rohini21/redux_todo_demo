@@ -1,4 +1,4 @@
-var API_KEY    = 'blt0e4ab8f7e204c075';
+var API_KEY    = 'blte768e594f0e6d932';
 var API_URL    = 'api.built.io';
 var RT_API_URL = 'realtime.built.io';
 
